@@ -20,6 +20,8 @@ Um site estático feito para visualizar notícias de uma cidade fictícia sobre 
 - Aprendi a estilizar imagens dentro de links com parágrafos.
 
 - Aprendi como marcar a página atual que o usuário está usando apenas HTML e CSS.
+
+- Entendi melhor conceitos de `background` e suas propriedades no CSS.
 ## Rodando localmente
 
 Clone o projeto
