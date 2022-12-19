@@ -1,0 +1,255 @@
+/*Estrutura básica do site*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(imagens/fundo.png) repeat-x;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container {
+    margin: 0 auto;
+    width: 750px;
+}
+
+/*Topo - menu*/
+#topo {
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    height: 150px;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(imagens/logo.png) no-repeat left center;
+    text-indent: -3000px;
+}
+
+#topo ul {
+    float: left;
+    background: #B10333;
+    margin-top: 30px;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo a {
+    font-size: .9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: black;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.fotos #navegacao a#fotos,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia {
+    background: #DE003E;
+    cursor: text;
+}
+
+/*Conteúdo - Layouts*/
+#conteudo {
+    margin-top: 60px;
+}
+
+#conteudo-principal {
+    width: 550px;
+    float: right;
+    margin: 10px 0;
+}
+
+#tres-colunas #primario {
+    width: 270px;
+    float: left;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-coluna #primario {
+    width: 750px;
+}
+
+#secundario {
+    width: 270px;
+    float: right;
+}
+
+#lateral {
+    margin: 10px 0;
+    width: 180px;
+    float: left;
+}
+
+/*Formatações generalizadas*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.noticias {
+    background: url(imagens/fundo-caixa.png);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#conteudo h4 {
+    background-color: #294c71;
+    padding: 5px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.branco {
+    background: #fff;
+    padding: 5px;
+}
+
+/*Imagens*/
+img {
+    border: 3px solid #dfdfdf;
+    width: 245px;
+}
+
+#duas-colunas #primario img.imagem-noticia {
+    width: 524px;
+}
+
+#uma-coluna #primario img.imagem-noticia {
+    width: 715px;
+}
+
+/*Subtítulos e links - conteúdo principal*/
+span {
+    font-size: .8em;
+    padding: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nova-legislacao span {
+    background-color: #B10333;
+    color: white;
+}
+
+.felipe-silva span{
+    background-color: #DE003E;
+}
+
+.noticias a {
+    color: #B10333;
+}
+
+.noticias a:hover {
+    color: #DE003E;
+}
+
+/*Menus conteúdos Primário e secundário*/
+#conteudo ul.menu-noticias img {
+    width: 80px; 
+    float: left;
+    border: none;
+    margin: 5px;
+}
+
+#conteudo ul.menu-noticias li {
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+    padding: 2px;
+}
+
+#conteudo ul.menu-noticias a {
+    text-decoration: none;
+    color: #3E7ab9;
+    font-size: .8em;
+    font-weight: bold;
+    float: left;
+    margin-top: 3px;
+}
+
+#conteudo ul.menu-noticias p {
+    font-size: .7em;
+}
+
+#conteudo ul li:hover {
+    background: #EEEEEE;
+    cursor: pointer;
+}
+
+/*Barra de navegação - Links - Lateral e News*/
+
+#lateral a {
+    text-decoration: none;
+    font-size: .9em;
+    color: black;
+    display: block;
+    padding: 3px;
+    line-height: 30px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral a:hover {
+    padding-left: 20px;
+    background: url(imagens/marcador.png) no-repeat left center;
+    color: #A1A1A1;
+}
+
+#lateral li:hover {
+    background-color: #F9F9F9;
+}
+
+#lateral label {
+    cursor: pointer;
+    display: block;
+}
+
+#lateral input{
+    width: 125px;
+    border: 2px inset #ccc;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+#lateral input[type="submit"] {
+    background-color: #B10333;
+    border: 2px solid #870529;
+    width: 66px;
+    color: white;
+    box-sizing: content-box;
+}
+
+/*Rodapé*/
+#faixa-rodape {
+   background-color: #294c71;
+   padding: 20px; 
+   clear: both;
+   margin-top: 70px;
+}
+
+#rodape {
+    width: 720px;
+    color: white;
+    margin: 0 auto;
+}
