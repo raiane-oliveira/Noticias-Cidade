@@ -36,4 +36,4 @@ Entre no diretório do projeto
   cd Noticias-cidade
 ```
 
-E rode o arquivo HTML na sua máquina!
+Abra o arquivo HTML e rode na sua máquina!
