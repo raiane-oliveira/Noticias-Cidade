@@ -4,7 +4,7 @@
 Um site estático feito para visualizar notícias de uma cidade fictícia sobre assuntos diversos, desenvolvido com HTML e CSS para colocar na prática os conceitos aprendidos no curso de Desenvolvimento Web de Jamilton Damasceno e Jorge Sant Ana.
 
 
-<a href="https://imgur.com/z3ulqvp"><img width="800" src="https://i.imgur.com/z3ulqvp.gif" alt="Gif site Notícias Cidade"/></a>
+<img width="800" src="https://i.imgur.com/z3ulqvp.gif" alt="Gif site Notícias Cidade"/>
 
 
 ## Aprendizados
